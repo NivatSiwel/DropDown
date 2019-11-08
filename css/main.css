@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
     background-size: cover ;
