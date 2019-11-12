@@ -26,9 +26,12 @@
 
     <form action="#" id="contact">
         <h1>Contact Me</h1>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Additional Info"></textarea>
+        <label for="fullname">Name: </label>
+        <input type="text" placeholder="Name" name="fullname">
+        <label for="emailaddress">Email: </label>
+        <input type="email" placeholder="Email" name="emailaddress">
+        <label for="info" id="info">Additional Info:</label>
+        <textarea placeholder="Additional Info" name="info"></textarea>
         <span id="contact-button"> Submit </span>
     </form>
 </body>
