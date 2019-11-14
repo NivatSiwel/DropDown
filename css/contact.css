@@ -6,11 +6,12 @@
     margin: 100px auto;
     padding: 50px;
     box-shadow: 1px 1px 5px 5px rgba(77, 74, 74, 0.479);
+    border-radius: 20px;
 }
 
 #contact h1 {
     text-align: center;
-    margin-bottom: 100px;
+    margin: 100px;
 }
 
 #contact label {
@@ -67,3 +68,8 @@
     
 }
 
+@media only screen and (max-width: 1440px) {
+    #contact {
+        width: 550px;
+    }
+}
